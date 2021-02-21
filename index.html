@@ -6,59 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <style>
-        .title-font {
-            font-family: 'Roboto', sans-serif;
-        }
-
-        body {
-            font-family: 'Open Sans', sans-serif;
-            color: white;
-            background-color: black;
-        }
-
-        .subtitle {
-            color: magenta;
-        }
-
-        ul {
-            color: yellow;
-            list-style-type: square;
-        }
-
-        a:link, a:visited{
-            color: cyan;
-        }
-
-        a:hover {
-            color: gray;
-        }
-        
-        .item-size-1{
-            font-size: 16px;
-        }
-        .item-size-2{
-            font-size: 15px;
-        }
-        .item-size-3{
-            font-size: 14px;
-        }
-
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="title-font">Diogo Augusto de Souza Barbosa</h1>
-    <img src="images/diogo.jpeg" alt="Fotografia de Diogo Augusto" width="200px" id="diogo">
+    <header>
+        <p ><strong>Índice:  </strong><a href="#name">Sobre</a> | <a href="#hard">Hard Skills</a> | <a href="#soft">Soft Skills</a> | <a href="#links">Links Úteis</a></p>
+    </header>
 
+    <div id="name">
+    <h1 class="title-font">Diogo Augusto de Souza Barbosa</h1>
+    </div>
+
+    <div id="photo">
+        <img src="images/diogo.jpeg" alt="Fotografia de Diogo Augusto" width="200px" id="diogo">
+    </div>
+
+    <div id="about">
     <p>Publicitário estudante de Desenvolvimento de Software na Trybe.
         <br>Curioso nato, que gosta de aprender coisas novas todos os dias e acredita que o conhecimento nunca deve ser limitado.
         <br><br>
         <strong>Sapucaia do Sul, RS/BR</strong> 
     </p>
-    <p><strong>Índice:  </strong><a href="#hard">Hard Skills</a> | <a href="#soft">Soft Skills</a> | <a href="#links">Links Úteis</a></p>
-    <br>
-    <h2 id="hard" class="title-font subtitle">Hard Skills</h2>
+    </div>
+    
+    <Div id="hard">
+    <h2  class="title-font subtitle">Hard Skills</h2>
     <ul>
         <li class="item-size-1">Marketing Digital</li>
         <li class="item-size-1">Social Media</li>
@@ -67,8 +40,12 @@
         <li class="item-size-3">Edição Fotográfica (Photoshop, Lightroom)</li>
         <li class="item-size-3">Edição Audiovisual (Premiere, AfterEffects)</li>
     </ul>
+    </Div>
+
     <br>
-    <h2 id="soft" class="title-font subtitle">Soft Skills</h2>
+
+    <div id="soft" >
+    <h2 class="title-font subtitle">Soft Skills</h2>
     <ul>
         <li class="item-size-1">Comunicatividade</li>
         <li class="item-size-2">Empatia</li>
@@ -76,13 +53,19 @@
         <li class="item-size-3">Proatividade</li>
         
     </ul>
+    </div>
+
     <br>
-    <h2 id="links" class="title-font subtitle">Links Úteis</h2>
+
+    <div  id="links">
+    <h2 class="title-font subtitle">Links Úteis</h2>
     <Ul>
         <li><a href="#diogo">Esse sou eu</a></li>
         <li><a href="https://www.techtudo.com.br/" target="_blank">O meu blog favorito</a></li>
 
     </Ul>
+    </div>
+
 
 </body>
 </html>

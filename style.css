@@ -1,0 +1,84 @@
+.title-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
+
+#name { 
+    text-align: center;
+}
+
+#photo {
+    display: inline-block;
+    padding: 20px;
+    background-color: #363636;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+#photo img {
+    border-radius: 100%;
+}
+
+#about {
+    display:inline-block;
+    width: 500px;
+    margin: 50px;;
+}
+
+#about p {
+    -webkit-transform: translateY( -50% );
+    -moz-transform: translateY( -50% );
+    transform: translateY( -50% );
+}
+
+header{
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+}
+
+header p {
+    background-color: #363636;
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.subtitle {
+    color: magenta;
+}
+
+ul {
+    color: yellow;
+    list-style-type: none;
+
+}
+
+a:link, a:visited{
+    color: cyan;
+}
+
+a:hover {
+    color: gray;
+}
+
+.item-size-1{
+    font-size: 16px;
+}
+.item-size-2{
+    font-size: 15px;
+}
+.item-size-3{
+    font-size: 14px;
+}
+
+#hard , #soft, #links {
+    margin-left: 50px;
+}
