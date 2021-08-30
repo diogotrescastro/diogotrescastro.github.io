@@ -421,6 +421,7 @@ body {
 .swiper-slide img {
   max-width: 40%;
   max-height: 300px;
+  margin: 20px;
 }
 
 .swiper-slide {
