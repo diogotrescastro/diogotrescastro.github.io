@@ -293,7 +293,7 @@ body {
 
 /* Sobre */
 
-.about {
+.aboutS {
   display: flex;
   width: 90vw;
   min-height: 100vh;
@@ -377,7 +377,7 @@ body {
 }
 
 /* Porfolio */
-.portfolio {
+.portfolioS {
   display: flex;
   width: 90vw;
   align-items: center;
@@ -529,7 +529,7 @@ body {
   }
 
 /* Skills */
-.skills {
+.skillsS {
   display: flex;
   width: 90vw;
   align-items: center;
@@ -650,7 +650,7 @@ body {
 
 /* Sobre */
 
-.about {
+.aboutS {
   min-height: 100vh;
   height: auto;
   flex-direction: column;
@@ -725,7 +725,7 @@ body {
 }
 
 /* Skills */
-.skills {
+.skillsS {
   min-height: 100vh;
   height: auto;
   flex-direction: column;
@@ -797,7 +797,7 @@ body {
 }
 
 /* Porfolio */
-.portfolio {
+.portfolioS {
   min-height: 100vh;
   height: auto;
   flex-direction: column;

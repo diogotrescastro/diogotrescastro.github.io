@@ -1,8 +1,8 @@
 
 function Animate() {
-  const about = document.getElementById('about');
-  const skills = document.getElementById('skills');
-  const portfolio = document.getElementById('portfolio');
+  const about = document.getElementById('aboutS');
+  const skills = document.getElementById('skillsS');
+  const portfolio = document.getElementById('portfolioS');
   const text = document.getElementById('footer-text');
   const changeText = () => {
     text.innerHTML = "Feito com Html, Css e Js feat. Google, um pouco de Criatividade, e muito Amor. 💜"
