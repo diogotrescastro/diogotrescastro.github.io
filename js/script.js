@@ -5,7 +5,7 @@ function Animate() {
   const portfolio = document.getElementById('portfolioS');
   const text = document.getElementById('footer-text');
   const changeText = () => {
-    text.innerHTML = "Feito com Html, Css e Js feat. Google, um pouco de Criatividade, e muito Amor. 💜"
+    text.innerHTML = "Feito com Html, Css e Js feat. Google, um pouco de criatividade, e muito amor. 💜"
   }
   if(about.getBoundingClientRect().top < window.innerHeight) {
     about.classList.add("animate__animated")
