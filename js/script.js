@@ -33,6 +33,7 @@ document.getElementById("aboutL").onclick = function () {
   document.getElementById('nav-check').checked = false;
 };
 
+
 document.getElementById("skillsL").onclick = function () {
   document.getElementById('nav-check').checked = false;
 };
