@@ -1,6 +1,6 @@
 # Portfólio Pessoal
 
-Desenvolvimento de um jogo de perguntas e respostas baseado no jogo **Trivia** no formato Web, utilizando _React e Redux_, desenvolvendo em grupo suas funcionalidades de acordo com as demanas definidas em um quadro _Kanban_. 
+Desenvolvimento do meu portfólio pessoal, com um pouco sobre mim, minhas habilidades e alguns projetos que me orgulho. 
 
 ### <a href="https://diogoaugusto.dev/" target="blank">👉 Clique e Confira meu Portfólio</a>
 
